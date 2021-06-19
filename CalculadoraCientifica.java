@@ -12,7 +12,7 @@ public class CalculadoraCientifica extends Calculadora {
         contadorInstancia = contadorInstancia - 1;
 	}
 
-    public int getNumInstancias(){
+    public static int getNumInstancias(){
         return contadorInstancia;
     }
 
